@@ -1,0 +1,44 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+}
+
+.login .container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.login h1 {
+	padding: 12px;
+}
+
+.login .credentials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	padding: 80px 50px;
+	gap: 50px;
+}
+
+.login .credentials .p-dropdown {
+	width: 70%;
+}
+
+.login .credentials .p-button {
+	width: 70%;
+}
+
+.login .p-card {
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12)
+}

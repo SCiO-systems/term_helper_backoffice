@@ -1,0 +1,32 @@
+.layout-content {
+    padding: 4rem 0 0 0;
+    background: white;
+}
+
+@media screen and (max-width: 1091px) {
+    .layout-wrapper .layout-content-wrapper .layout-content {
+        padding: 0;
+    }
+}
+
+.layout-wrapper .layout-topbar .topbar-right {
+    display: flex !important;
+    width: 100%;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.layout-wrapper .layout-topbar .topbar-right .dropdowns {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.layout-wrapper .layout-topbar .menu-button:focus {
+    box-shadow: 0 0 0 0.2rem #eaffec !important;
+}
+
+.layout-wrapper .layout-topbar .topbar-right .subtitle {
+    font-size: 14px;
+    font-weight: 600;
+}

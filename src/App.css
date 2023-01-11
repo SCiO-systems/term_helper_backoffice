@@ -1,0 +1,33 @@
+.app {
+	display: flex;
+	width: 100%;
+}
+::selection {
+	color: white;
+	background-color: #343a40;
+}
+
+.p-component, .p-link {
+	font-family: Montserrat;
+}
+.p-grid {
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: Lato;
+	margin: 0;
+}
+
+p {
+	font-family: Montserrat;
+	margin: 0;
+}
+
+label {
+	font-family: Montserrat;
+}
+
+/*.p-card {*/
+/*	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12)*/
+/*}*/

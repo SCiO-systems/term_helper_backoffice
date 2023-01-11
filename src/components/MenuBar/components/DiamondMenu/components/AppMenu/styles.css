@@ -1,0 +1,17 @@
+/*.layout-sidebar {*/
+/*    background-image: linear-gradient(180deg, #315f3d 10%, #1c3222 100%) !important;*/
+/*}*/
+
+.layout-sidebar .logo {
+    cursor: pointer;
+}
+.layout-sidebar .logo h3 {
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+.layout-sidebar .logo p{
+    font-size: 0.75rem;
+    color: white;
+    text-align: left;
+}

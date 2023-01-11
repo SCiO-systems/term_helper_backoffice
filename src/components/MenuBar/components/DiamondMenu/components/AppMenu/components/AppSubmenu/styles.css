@@ -1,0 +1,14 @@
+.layout-menu ul .p-link {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.layout-menu ul .p-link:hover {
+    background: rgba(175, 175, 175, 0.34) !important;
+}
+.layout-menu ul a:hover {
+    background: rgba(175, 175, 175, 0.34) !important;
+}

@@ -1,0 +1,515 @@
+[
+  {
+  "_id": {
+    "$oid": "6333ff35d0566c2f91583b74"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6333ff907fa8a61793945407"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+  "category": "Category 1",
+  "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6333ffb8234ff0729978b903"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+  "category": "Category 1",
+  "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6333ffe25f5f540e07b65ab2"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+  "category": "Category 1",
+  "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6334000efc735c1106c45121"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63340037c4a8996789e5de86"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6334005ef4ed1421737aed25"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6334007528b80f1a5be6994f"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633400d231cafa5545e5c651"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63340108d6020a4799bdac39"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6334016c82316573050328a3"
+  },
+  "term": "custom TEST",
+  "vocabulary": "term",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63340227d9cef84050995417"
+  },
+  "term": "custom TEST",
+  "vocabulary": "term",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633403ede5990c33a32a7dd9"
+  },
+  "term": "custom TEST",
+  "vocabulary": "term",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63341dd1e5990c33a32a7dda"
+  },
+  "term": "Demo term",
+  "vocabulary": "term",
+  "reference": "https://www.google.com",
+  "description": "A sample demo term to delete",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63341e57e5990c33a32a7ddb"
+  },
+  "term": "Hello wrold",
+  "vocabulary": "term",
+  "reference": "hello",
+  "description": "Hello",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63341f3fe5990c33a32a7ddc"
+  },
+  "term": "Sample term",
+  "vocabulary": "term",
+  "reference": "demo",
+  "description": "Hello world",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63341f9ae5990c33a32a7ddd"
+  },
+  "term": "Demo22",
+  "vocabulary": "term",
+  "reference": "demo",
+  "description": "Demo Demo",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63342189e5990c33a32a7dde"
+  },
+  "term": "Milligrams (mg-demo)",
+  "vocabulary": "unit",
+  "reference": "A sample description",
+  "description": "Sample demo description",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63342360e8fb1d2fae54c4fe"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633423c2daa65b7435b3a376"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633425870bbe4e149f1c164f"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633425af9349a001b86380a6"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633426a2e08eb31d2ef8122a"
+  },
+  "term": "custom TEST",
+  "vocabulary": "unit",
+  "reference": "N/A",
+  "description": "THIS IS A CUSTOM TEST",
+  "submitter": {
+    "fullname": "sotiri k",
+    "email": "sotiris@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633471c8e08eb31d2ef8122b"
+  },
+  "term": "demo tillage date",
+  "vocabulary": "date",
+  "reference": "reference",
+  "description": "A sample description",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63347265e6ca8d2d628b8ee7"
+  },
+  "term": "sample date",
+  "vocabulary": "date",
+  "reference": "sample date",
+  "description": "a sample date",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "6334759be6ca8d2d628b8ee8"
+  },
+  "term": "demo term 1 - date",
+  "vocabulary": "date",
+  "reference": "dssdds",
+  "description": "ddsd",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 2",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63347677e6ca8d2d628b8ee9"
+  },
+  "term": "demo 2",
+  "vocabulary": "date",
+  "reference": "demo",
+  "description": "demo 2",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63347810e6ca8d2d628b8eea"
+  },
+  "term": "demo 3",
+  "vocabulary": "date",
+  "reference": "deko",
+  "description": "demo 3",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63347880e6ca8d2d628b8eeb"
+  },
+  "term": "demo 4",
+  "vocabulary": "date",
+  "reference": "demo 4",
+  "description": "demo 4",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "633478f3e6ca8d2d628b8eec"
+  },
+  "term": "demo 5",
+  "vocabulary": "date",
+  "reference": "demo",
+  "description": "demo5",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63354f2ae6ca8d2d628b8eed"
+  },
+  "term": "demo4",
+  "vocabulary": "date",
+  "reference": "demo4",
+  "description": "demo4",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63355308b8eb242a125c7dd2"
+  },
+  "term": "demo 5",
+  "vocabulary": "date",
+  "reference": "demo5",
+  "description": "demo 5",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "63355316b8eb242a125c7dd3"
+  },
+  "term": "demo6",
+  "vocabulary": "date",
+  "reference": "demo6",
+  "description": "demo6",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+    "category": "Category 1",
+    "status": "Submitted"
+},
+  {
+  "_id": {
+    "$oid": "638fad2073afcd507edf5c8f"
+  },
+  "term": "testme",
+  "vocabulary": "unit",
+  "description": "dwdw",
+  "submitter": {
+    "fullname": "Scio Systems",
+    "email": "datascribe@scio.systems"
+  },
+  "post_offset": 0.2,
+  "pre_offset": -0.2,
+  "factor": 10,
+    "category": "Category 1",
+    "status": "Submitted"
+}
+
+]

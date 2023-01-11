@@ -1,0 +1,34 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #dee2e6;
+	border-bottom: 1px solid #dee2e6;
+	padding: 11px 2rem;
+
+	/*position: absolute;*/
+	/*bottom: 0;*/
+}
+
+.footer .licenses a{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.footer .licenses i {
+	width: 1em;
+	font-size: 2em;
+}
+
+.footer .logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+.footer .logo  img {
+	height: 30px;
+}

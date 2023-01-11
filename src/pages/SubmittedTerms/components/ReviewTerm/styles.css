@@ -1,0 +1,93 @@
+.app .submitted-terms .review-term-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - 112.8px);
+	padding: 24px;
+}
+
+.app .submitted-terms .review-term {
+	display: flex;
+	flex-direction: column;
+	padding: 24px;
+	gap: 12px;
+	width: 60%;
+}
+
+.app .submitted-terms .review-term .p-inputtext {
+	width: 100%;
+}
+
+.app .submitted-terms .review-term .actions {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.app .submitted-terms .review-term .actions .accept{
+	background: transparent;
+	border: 1.4px solid #499239D0;
+	color: #499239D0;
+}
+
+.app .submitted-terms .review-term .actions .accept:enabled:hover{
+	background: #499239D0;
+	color: #fff;
+}
+
+.app .submitted-terms .review-term .actions .accept:enabled:focus{
+	background: #499239D0;
+	color: #fff;
+}
+
+.app .submitted-terms .review{
+	background: transparent;
+	border: 1.4px solid #fc7313;
+	color: #fc7313;
+}
+
+.app .submitted-terms .review:enabled:hover{
+	background: #fc7313;
+	color: #fff;
+}
+
+.app .submitted-terms .review:enabled:focus{
+	background: #fc7313;
+	color: #fff;
+}
+
+.app .submitted-terms .review-term .actions .reject{
+	background: transparent;
+	border: 1.4px solid #b72d2b;
+	color: #b72d2b;
+}
+
+.app .submitted-terms .review-term .actions .reject:enabled:hover{
+	background: #b72d2b;
+	color: #fff;
+}
+
+.app .submitted-terms .review-term .actions .reject:enabled:focus{
+	background: #b72d2b;
+	color: #fff;
+}
+
+.app .submitted-terms .review-term .back{
+	background: transparent;
+	color: #343a40;
+	border: 0px solid #343a40;
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	font-size: 20px;
+}
+
+.term-actions .p-inputtextarea {
+	width: 100%;
+}
+
+.term-actions .p-multiselect {
+	width: 100%;
+}
