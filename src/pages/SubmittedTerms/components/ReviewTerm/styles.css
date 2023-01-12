@@ -77,12 +77,19 @@
 .app .submitted-terms .review-term .back{
 	background: transparent;
 	color: #343a40;
-	border: 0px solid #343a40;
-	position: absolute;
-	top: 24px;
-	left: 24px;
-	font-size: 20px;
+	border: 1px solid #343a40;
 }
+
+.app .submitted-terms .review-term .back:enabled:hover{
+	background: #343a40;
+	color: #fff;
+}
+
+.app .submitted-terms .review-term .back:enabled:focus{
+	background: #343a40;
+	color: #fff;
+}
+
 
 .term-actions .p-inputtextarea {
 	width: 100%;

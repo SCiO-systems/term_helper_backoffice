@@ -5,6 +5,8 @@ import { Button } from 'primereact/button';
 import { SelectButton } from 'primereact/selectbutton';
 import { AutoComplete } from 'primereact/autocomplete';
 import './styles.css';
+import { Dialog } from 'primereact/dialog';
+import { InputTextarea } from 'primereact/inputtextarea';
 
 const Table = (props) => {
 	const { setSelectedTerm, unchangedTerms } = props;
@@ -13,8 +15,9 @@ const Table = (props) => {
 	const [filteredTerms, setFilteredTerms] = useState(null);
 	const [terms, setTerms] = useState(unchangedTerms);
 	const [value, setValue] = useState(null);
+	const [comments, setComments] = useState('');
 
-	const dt = useRef(null);
+	const dt = useRef(null); 
 
 	useEffect(
 		() => {
@@ -59,6 +62,12 @@ const Table = (props) => {
 			<div className="actions">
 				<Button className="review" icon="fa-duotone fa-pen-to-square" tooltip="Review" tooltipOptions={{ position: 'top' }} onClick={() => setSelectedTerm(data)} />
 			</div>
+		);
+	};
+
+	const commentsTemplate = (data) => {
+		return (
+			<Button className="comments" label="Comments" disabled={!data.comments} onClick={() => setComments(data.comments)} />
 		);
 	};
 
@@ -151,10 +160,14 @@ const Table = (props) => {
 				>
 					<Column field="term" header="Term" />
 					<Column field="status" header="Status" />
-					<Column body={submitterTemplate} header="Submitter" />
 					<Column field="category" header="Category" />
+					<Column body={submitterTemplate} header="Submitter" />
+					<Column body={commentsTemplate} header="Comments" />
 					<Column body={actionsTemplate} header="Actions" />
 				</DataTable>
+				<Dialog className="term-actions" header="Reviewer Comments" visible={!!comments} style={{ width: '50vw' }} onHide={() => setComments('')}>
+					<InputTextarea value={comments} disabled />
+				</Dialog>
 			</div>
 		</div>
 	);

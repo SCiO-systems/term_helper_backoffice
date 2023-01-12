@@ -17,3 +17,19 @@
 .app .submitted-terms .table .p-datatable {
 	width: 100%;
 }
+
+.app .submitted-terms .table .comments{
+	background: transparent;
+	color: #2196F3;
+	border: 1px solid #2196F3;
+}
+
+.app .submitted-terms .table .comments:enabled:hover{
+	background: #2196F3;
+	color: #fff;
+}
+
+.app .submitted-terms .table .comments:enabled:focus{
+	background: #2196F3;
+	color: #fff;
+}

@@ -17,11 +17,14 @@ const ReviewTerm = (props) => {
 	const [comments, setComments] = useState('');
 	const [matchingTerms, setMatchingTerms] = useState([]);
 
-	const changeStatus = (status) => {
+	const updateSelectedTerm = (status) => {
 		const newTerms = [...unchangedTerms];
 		const temp = newTerms.find((item) => item._id.$oid === selectedTerm._id.$oid);
 		const index = newTerms.findIndex((item) => item._id.$oid === selectedTerm._id.$oid);
-		const newValue = { ...temp, status };
+		let newValue = { ...temp, status };
+		if (comments) {
+			newValue = { ...temp, status, comments };
+		}
 		newTerms.splice(index, 1, newValue);
 		setUnchangedTerms(newTerms);
 	};
@@ -32,9 +35,9 @@ const ReviewTerm = (props) => {
 				<Button
 					label="Send Review"
 					onClick={() => {
+						updateSelectedTerm('Under Review');
 						setReviewDialog(false);
 						setComments('');
-						changeStatus('Under Review');
 					}}
 				/>
 				<Button
@@ -54,9 +57,9 @@ const ReviewTerm = (props) => {
 				<Button
 					label="Send Comments and Reject"
 					onClick={() => {
+						updateSelectedTerm('Rejected');
 						setRejectDialog(false);
 						setComments('');
-						changeStatus('Rejected');
 					}}
 				/>
 				<Button
@@ -76,9 +79,9 @@ const ReviewTerm = (props) => {
 				<Button
 					label="Accept"
 					onClick={() => {
+						updateSelectedTerm('Accepted');
 						setAcceptDialog(false);
 						setMatchingTerms([]);
-						changeStatus('Accepted');
 					}}
 				/>
 				<Button
@@ -95,7 +98,6 @@ const ReviewTerm = (props) => {
 	return (
 		<div className="review-term-container">
 			<div className="review-term p-card">
-				<Button className="back" icon="fa-duotone fa-arrow-left" onClick={() => setSelectedTerm(null)} />
 				<h5>Submitter:</h5>
 				<div>
 					<p>Name</p>
@@ -133,10 +135,10 @@ const ReviewTerm = (props) => {
 					: null
 				}
 				<div className="actions">
+					<Button className="back" icon="fa-duotone fa-arrow-left" onClick={() => setSelectedTerm(null)} />
 					<Button className="accept" icon="fa-solid fa-check" tooltip="Accept" tooltipOptions={{ position: 'top' }} onClick={() => setAcceptDialog(true)} />
 					<Button className="review" icon="fa-duotone fa-pen-to-square" tooltip="Review" tooltipOptions={{ position: 'top' }} onClick={() => setReviewDialog(true)} />
 					<Button className="reject" icon="fa-solid fa-xmark" tooltip="Reject" tooltipOptions={{ position: 'top' }} onClick={() => setRejectDialog(true)} />
-
 				</div>
 				<Dialog className="term-actions" header="Accept" visible={acceptDialog} style={{ width: '50vw' }} footer={acceptFooter} onHide={() => setAcceptDialog(false)}>
 					<MultiSelect value={matchingTerms} options={data} onChange={(e) => setMatchingTerms(e.value)} optionLabel="term" placeholder="Select matching terms" display="chip" />
