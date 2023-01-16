@@ -3,7 +3,7 @@ FROM node:14.18.0 as build
 WORKDIR /app
 
 COPY .npmrc ./
-COPY .env ./
+# COPY .env ./
 COPY package.json ./
 
 RUN npm install
