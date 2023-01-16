@@ -57,9 +57,9 @@ pipeline {
                             sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} sudo mkdir -p /var/lib/app/${project_name}-dev"
                             sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} sudo chown -R scio:scio /var/lib/app/${project_name}-dev"
                             sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} docker rm -f react-app" // stop container if already running under the defined container name
-                            // sh "scp -P 1412 -o StrictHostKeyChecking=no docker-compose.dev.yml scio@${dev_deployment_instance}:/var/lib/app/${project_name}-dev"
-                            // sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} docker-compose -f /var/lib/app/${project_name}-dev/docker-compose.dev.yml pull"
-                            // sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} docker-compose -f /var/lib/app/${project_name}-dev/docker-compose.dev.yml up -d"
+                            sh "scp -P 1412 -o StrictHostKeyChecking=no docker-compose.dev.yml scio@${dev_deployment_instance}:/var/lib/app/${project_name}-dev"
+                            sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} docker-compose -f /var/lib/app/${project_name}-dev/docker-compose.dev.yml pull"
+                            sh "ssh -p1412 -o StrictHostKeyChecking=no scio@${dev_deployment_instance} docker-compose -f /var/lib/app/${project_name}-dev/docker-compose.dev.yml up -d"
                         }
                     }
                 }
