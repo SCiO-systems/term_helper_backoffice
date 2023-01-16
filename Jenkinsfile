@@ -23,7 +23,8 @@ pipeline {
 
         stage('Building & pushing docker images to DockerHub (dev)') {
             when {
-                branch 'release/development'
+                // branch 'release/development'
+                branch 'initialize'
             }
             steps {
                     echo 'Building project'
@@ -44,7 +45,7 @@ pipeline {
 
         stage('Deployment (dev)') {
             when {
-                branch 'release/development'
+                branch 'initialize'
             }
             steps {
                 echo "Deploying to ${dev_deployment_instance}"
