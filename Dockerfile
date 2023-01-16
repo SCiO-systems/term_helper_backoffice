@@ -2,9 +2,13 @@ FROM node:14.18.0 as build
 
 WORKDIR /app
 
-COPY . .
+COPY .npmrc ./
+COPY .env ./
+COPY package.json ./
 
-RUN cd /app && ls && pwd && npm install
+RUN npm install
+
+COPY . .
 
 RUN npm run build
 
@@ -12,7 +16,6 @@ FROM nginx:stable-alpine
 
 COPY --from=build /app/build /usr/share/nginx/html
 
-EXPOSE 3000
 EXPOSE 80
 
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]
