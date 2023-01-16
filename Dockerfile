@@ -12,6 +12,7 @@ FROM nginx:stable-alpine
 
 COPY --from=build /app/build /usr/share/nginx/html
 
-EXPOSE 8000
+EXPOSE 3000
+EXPOSE 80
 
-CMD ["npm", "run"]
+CMD ["npm", "start"]
